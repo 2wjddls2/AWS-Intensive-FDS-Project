@@ -1,0 +1,30 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== 가상환경 (conda / venv) =====
+fds_env/
+.venv/
+env/
+venv/
+
+# ===== 에디터 / IDE =====
+.vscode/
+.idea/
+
+# ===== AWS 자격증명 / 환경변수 =====
+.env
+.env.*
+*.pem
+.aws/
+
+# ===== OS 잡파일 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 로그 / 임시 파일 =====
+*.log
+*.tmp
